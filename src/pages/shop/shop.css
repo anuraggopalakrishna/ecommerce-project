@@ -1,13 +1,24 @@
+@font-face {
+    font-family: Xenogears;
+    src: url(../../assets/Xenogears.ttf);
+}
+
+@font-face {
+    font-family: HemiHead;
+    src: url(../../assets/hemi\ head\ bd\ it.ttf);
+}
+
 .shopTitle {
     margin-top: 100px;
     text-align: center;
     font-size: 40px;
+    font-family: Xenogears, "sans-serif";
 }
 
 .products {
     width: 100%;
-    height: auto;
-    display: grid;
+        height: auto;
+        display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
 }
@@ -25,7 +36,9 @@
     align-items: center;
     text-align: center;
 }
-
+.product h2{
+    font-family: HemiHead, "sans-serif";
+}
 #product-img-container {
     width: 400px;
     height: 300px;

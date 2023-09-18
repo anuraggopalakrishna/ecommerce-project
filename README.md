@@ -1,6 +1,6 @@
 ## About The Project
 
-eCommerce Site Project built with React. Used JS and CSS w Bootstrap.
+eCommerce Site Project built with React. Used JS w React & ContextAPI and CSS w Bootstrap.
 
 # Getting Started with Create React App
 

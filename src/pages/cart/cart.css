@@ -1,0 +1,101 @@
+
+.cart h1{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+.cart-item {
+    display: flex;
+    border: 1px;
+    border-radius: 24px;
+    padding: 16px;
+    margin-bottom: 0;
+}
+
+.cart-item-image {
+    flex: 0 0 250px;
+    margin-right: 20px;
+}
+
+.cart-item-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cart-item-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.cart-item-name {
+    font-family: HemiHead;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.cart-item-price {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    justify-self: right;
+}
+
+/* Additional styles for hover effect */
+.cart-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.countHandler {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.countHandler button {
+    background-color: lightgray;
+    color: #000;
+    width: 25px;
+    border: 3px;
+    border-radius: 5px;
+    padding: 4px 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.countHandler #addBtn:hover {
+    background-color: #2a6aad;
+    color: white;
+}
+
+.countHandler #removeBtn:hover {
+    background-color: rgb(248, 67, 67);
+    color: white;
+}
+
+.countHandler input {
+    border: 1px solid #ddd;
+    padding: 4px 8px;
+    margin: 0 4px;
+    width: 40px;
+    text-align: center;
+}
+.cart h3{
+    margin: 15px 15px;
+}
+.checkout h3{
+    display: flex;
+    align-self: center;
+}
+.checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
