@@ -6,22 +6,18 @@ import { Cart } from './pages/cart/cart';
 import { Shop } from './pages/shop/shop';
 import { ShopContextProvider } from './context/shop-context';
 
-
-
-
 function App() {
   return <div className="App">
     <ShopContextProvider>
       <Router>
         <Navbar />
         <div className='container-fluid'>
-        <Routes>
-          <Route path="/" element={<Shop />} />
-          <Route path="/cart" element={<Cart />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Shop />} />
+            <Route path="/cart" element={<Cart />} />
+          </Routes>
         </div>
       </Router>
-
     </ShopContextProvider>
   </div>
 }
