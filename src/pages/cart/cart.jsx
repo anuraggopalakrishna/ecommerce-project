@@ -19,6 +19,9 @@ export const Cart = () => {
           if (cartItems[product.id] > 0) {
             return <CartItem data={product}></CartItem>
           }
+          else{
+            return null;
+          }
         })}
         {totalAmount > 0 ?
           <div className='checkout'>
