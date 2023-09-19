@@ -23,6 +23,12 @@
     justify-content: center;
 }
 
+@media (max-width: 768px) {
+    .products{
+        grid-template-columns: 1fr;
+    }
+}
+
 
 .product {
     border-radius: 15px;

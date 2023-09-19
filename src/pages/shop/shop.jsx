@@ -9,9 +9,9 @@ export const Shop = () => {
             <div className='shopTitle'>
                 <h1>Moto Shoppe</h1>
             </div>
-            <div className='row products'>
+            <div className='products'>
                 {PRODUCTS.map(product => (
-                    <div className='col-md-4' key={product.id}>
+                    <div className="product-entry" key={product.id}>
                         <Product data={product} />
                     </div>
                 ))}
